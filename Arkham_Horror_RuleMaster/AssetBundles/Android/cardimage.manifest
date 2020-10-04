@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 1085240714
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f0a419aed2e5550dcbaacb2736aafafc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9e6ad29cbd2df8fbe1a15315db0e51ab
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Img/Card/OtherWorld_Blue.png
+- Assets/Resources/Img/Card/OtherWorld_Yellow.png
+- Assets/Resources/Img/Card/Arkham_Purple.png
+- Assets/Resources/Img/Card/Arkham_Blue.png
+- Assets/Resources/Img/Card/Mythos_Back.png
+- Assets/Resources/Img/Card/Arkham_Red.png
+- Assets/Resources/Img/Card/Arkham_White.png
+- Assets/Resources/Img/Card/OtherWorld_White.png
+- Assets/Resources/Img/Card/Arkham_Orange.png
+- Assets/Resources/Img/Card/OtherWorld_Red.png
+- Assets/Resources/Img/Card/OtherWorld_Green.png
+- Assets/Resources/Img/Card/Arkham_Black.png
+- Assets/Resources/Img/Card/Arkham_Green.png
+- Assets/Resources/Img/Card/OtherWorld_Back.png
+- Assets/Resources/Img/Card/Arkham_Brown.png
+- Assets/Resources/Img/Card/Mythos_Front.png
+- Assets/Resources/Img/Card/Arkham_Yellow.png
+Dependencies: []

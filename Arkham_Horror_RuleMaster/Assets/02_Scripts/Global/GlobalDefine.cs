@@ -1,32 +1,85 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using System.IO;
-using System.Globalization;
+﻿using System.IO;
+using System.ComponentModel;
 
 namespace global_define
 {
-    public static class Path
+    #region CLASS
+    public static class DATAPath
     {
-        public static readonly string DIR_CONFIG_ROOT;
-        public static readonly string DIR_GAMEOPTION_ROOT;
-        public static string RESOURCES_CARD_PNG_ROOT = "/CardPNG/{0}";
+        public static readonly string ASSETBUNDLE_DB_ROOT;
+        public static readonly string ASSETBUNDLE_CHARACTER_IMAGE_ROOT;
+        public static readonly string ASSETBUNDLE_CARD_IMAGE_ROOT;
+        public static readonly string ASSETBUNDLE_ICON_IMAGE_ROOT;
 
-        static Path()
+        static DATAPath()
         {
-            DIR_CONFIG_ROOT = Directory.GetCurrentDirectory() + "/DB/{0}";
-            DIR_GAMEOPTION_ROOT = Directory.GetCurrentDirectory() + "/GAMEOPTION/{0}";
+            ASSETBUNDLE_DB_ROOT = "AssetBundles/Android/db";
+            ASSETBUNDLE_CHARACTER_IMAGE_ROOT = "AssetBundles/Android/characterimage";
+            ASSETBUNDLE_CARD_IMAGE_ROOT = "AssetBundles/Android/cardimage";
+            ASSETBUNDLE_ICON_IMAGE_ROOT = "AssetBundles/Android/iconimage";
         }
     }
-    public static class TextMake
+
+    public static class ConstString
     {
-        public static string IS_SUCCESS_TEXT = "체크에 성공하셨습니까?";
-        public static string IS_SURE_TEXT = "응하시겠습니까?";
-        public static string IS_CORRECT_ABYSS_TEXT = "해당 카드를 적용하셨습니까?";
+        public static string IS_SUCCESS_KOR = "체크에 성공하셨습니까?";
+        public static string IS_SUCCESS_ENG = "Was it successful?";
+
+        public static string IS_SURE_KOR = "응하시겠습니까?";
+        public static string IS_SURE_ENG = "Would you like to respond?";
+
+        public static string IS_APPLY_KOR = "적용하셨습니까?";
+        public static string IS_APPLY_ENG = "Did you apply?";
+    }
+    #endregion
+
+    public enum eScene
+    {
+        None = -1,
+
+        [Description("Title")]
+        Title,
+
+        [Description("Loading")]
+        Loading,
+
+        [Description("InGame")]
+        InGame,
+
+        [Description("Start")]
+        Start,
+
+        Max
     }
 
-    //enum
-    #region ENUM
+    public enum eLanguage
+    {
+        Korean,
+        English
+    }
+
+    #region DATASETTING
+    public enum eTable
+    {
+        CharacterDB,
+        PlaceDB,
+        OtherWorldDB,
+        MythosDB,
+        LanguageDB,
+
+        Max
+    }
+
+    public enum eAbility
+    {
+        None = -1,
+
+        NotExceptionAbility,
+        DoublePlaceDraw,
+        DoubleOtherWorldDraw,
+
+    }
+    //없어질 예정
     public enum eMonsterSymbol
     {
         Circle = 1,
@@ -41,7 +94,7 @@ namespace global_define
 
         Max
     }
-
+    //사라질 예정
     public enum eAbyssColor
     {
         White,
@@ -56,11 +109,11 @@ namespace global_define
     public enum eMythosCategory
     {
         Reset_Card,
-        News,
+        Headline,
         Rumor,
-        Environment_City,
+        Environment_Urban,
         Environment_Weather,
-        Environment_Mistic,
+        Environment_Mystic,
 
     }
 
@@ -78,7 +131,7 @@ namespace global_define
 
         Max
     }
-
+    //없어질 예정
     public enum ePlace
     {
         None,
@@ -129,8 +182,8 @@ namespace global_define
         Suburb,                 //외곽
         South                   //남부
     }
-
-    public enum eAbyss
+    //없어질 예정 => 캐릭터가 어느 시공에 빨려들어갔는지 체크해서, 그걸 자동으로 맞춰주면 개꿀일거 같은데..?
+    public enum eOtherWorld
     {
         None,
         OtherWorld = 1,
@@ -145,9 +198,4 @@ namespace global_define
 
     #endregion
 
-    //Interface
-    interface ICardInfoSetting
-    {
-        void CardInfoSetting(int _cardNum);
-    }
 }

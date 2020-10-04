@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 2147175528
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 091012dd995cb36ae3d7cf04f92579e7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/DB/LanguageDB.json
+- Assets/Resources/DB/CharacterDB.json
+- Assets/Resources/DB/OtherWorldDB.json
+- Assets/Resources/DB/MythosDB.json
+- Assets/Resources/DB/PlaceDB.json
+Dependencies: []

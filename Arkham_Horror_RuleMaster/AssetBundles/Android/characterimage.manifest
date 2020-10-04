@@ -1,0 +1,49 @@
+ManifestFileVersion: 0
+CRC: 3130824547
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a068a4eb4287ae85c596e171a422fea5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9e6ad29cbd2df8fbe1a15315db0e51ab
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Img/Character/Character_Scale/Darrell_Simmons_Scale.png
+- Assets/Resources/Img/Character/Dexter_Drake.jpg
+- Assets/Resources/Img/Character/Michael_McGlen.jpg
+- Assets/Resources/Img/Character/Character_Scale/Monterey_Jack_Scale.png
+- Assets/Resources/Img/Character/Character_Scale/Bob_Jenkins_Scale.png
+- Assets/Resources/Img/Character/Gloria_Goldberg.jpg
+- Assets/Resources/Img/Character/Character_Scale/Gloria_Goldberg_Scale.png
+- Assets/Resources/Img/Character/Character_Scale/Amanda_Sharpe_Scale.png
+- Assets/Resources/Img/Character/Character_Scale/Mandy_ThompsonScale.png
+- Assets/Resources/Img/Character/Mandy_Thompson.jpg
+- Assets/Resources/Img/Character/Kate_Winthrop.jpg
+- Assets/Resources/Img/Character/Joe_Diamond.jpg
+- Assets/Resources/Img/Character/Character_Scale/Carolyn_Fern_Scale.png
+- Assets/Resources/Img/Character/Monterey_Jack.jpg
+- Assets/Resources/Img/Character/Ashcan_Pete.jpg
+- Assets/Resources/Img/Character/Amanda_Sharpe.jpg
+- Assets/Resources/Img/Character/Jenny_Barnes.jpg
+- Assets/Resources/Img/Character/Character_Scale/Harvey_Walters_Scale.png
+- Assets/Resources/Img/Character/Character_Scale/Kate_Winthrop_Scale.png
+- Assets/Resources/Img/Character/Sister_Mary.jpg
+- Assets/Resources/Img/Character/Character_Scale/Vincent_Lee_Scale.png
+- Assets/Resources/Img/Character/Carolyn_Fern.jpg
+- Assets/Resources/Img/Character/Harvey_Walters.jpg
+- Assets/Resources/Img/Character/Bob_Jenkins.jpg
+- Assets/Resources/Img/Character/Darrell_Simmons.jpg
+- Assets/Resources/Img/Character/Vincent_Lee.jpg
+- Assets/Resources/Img/Character/Character_Scale/Ashcan_Pete_Scale.png
+- Assets/Resources/Img/Character/Character_Scale/Dexter_Drake_Scale.png
+- Assets/Resources/Img/Character/Character_Scale/Sister_Mary_Scale.png
+- Assets/Resources/Img/Character/Character_Scale/Joe_Diamond_Scale.png
+- Assets/Resources/Img/Character/Character_Scale/Michael_Mc_Glen_Scale.png
+- Assets/Resources/Img/Character/Character_Scale/Jenny_Barnes_Scale.png
+Dependencies: []

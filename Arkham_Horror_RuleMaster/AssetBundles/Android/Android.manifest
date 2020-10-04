@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3138812540
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: characterimage
+      Dependencies: {}
+    Info_1:
+      Name: iconimage
+      Dependencies: {}
+    Info_2:
+      Name: db
+      Dependencies: {}
+    Info_3:
+      Name: cardimage
+      Dependencies: {}
